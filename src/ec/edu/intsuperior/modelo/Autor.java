@@ -1,0 +1,93 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ec.edu.intsuperior.modelo;
+/**
+ *
+ * @author Invitado
+ */
+public class Autor {
+    String id;
+    String autor;
+    String nombre;
+    String apellido;
+    String profesion;
+    String fechaNacimiento;
+
+    public Autor(String id, String autor, String nombre, String apellido, String profesion, String fechaNacimiento) {
+        this.id = id;
+        this.autor = autor;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.profesion = profesion;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    public Autor(String string, String soledad, String flores, String ingeniera, String string0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void getAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getProfesion() {
+        return profesion;
+    }
+
+    public void setProfesion(String profesion) {
+        this.profesion = profesion;
+    }
+
+    public String getFechaNacimiento() {
+        return fechaNacimiento;
+    }
+
+    public void setFechaNacimiento(String fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    
+    }
+    
+   
+    
+
+    
+    
+
+    
+    
+    
+    
+
